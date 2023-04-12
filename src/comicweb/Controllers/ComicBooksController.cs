@@ -8,12 +8,9 @@ namespace comicweb.Controllers
 {
     public class ComicBooksController : Controller
     {
-        public ContentResult Detail()
+        public ActionResult Detail()
         {
-            return new ContentResult()
-            {
-                Content = "Hello from the comic books controller"
-            };
+            return View();  
         }
     }
 }
